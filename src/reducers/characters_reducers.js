@@ -1,5 +1,5 @@
 import characters_json from '../data/characters.json';
-import {ADD_CHARACTER} from '../actions';
+import {ADD_CHARACTER, REMOVE_CHARACTER} from '../actions';
 
 const characters = (state=characters_json, action) => {
     switch(action.type){
